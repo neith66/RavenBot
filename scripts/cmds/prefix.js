@@ -197,7 +197,7 @@ module.exports = {
 
 		if (event.body) {
 		  // List of prefixes to check
-		  const prefixesToCheck = ["bot", "prefix"];
+		  const prefixesToCheck = ["Bolo", "prefix"];
 	  
 		  // Normalize the message to lowercase for case-insensitive matching
 		  const lowercasedMessage = event.body.toLowerCase();
